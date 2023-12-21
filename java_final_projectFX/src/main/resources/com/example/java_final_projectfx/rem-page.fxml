@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_final_projectfx.RemPage">
+   <children>
+      <AnchorPane layoutX="74.0" layoutY="61.0" prefHeight="297.0" prefWidth="451.0" style="-fx-background-color: lightgreen;">
+         <children>
+            <CheckBox fx:id="check1" layoutX="47.0" layoutY="98.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check5" layoutX="257.0" layoutY="98.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check2" layoutX="47.0" layoutY="139.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check3" layoutX="47.0" layoutY="182.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check4" layoutX="47.0" layoutY="223.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check7" layoutX="257.0" layoutY="182.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check6" layoutX="257.0" layoutY="139.0" mnemonicParsing="false" />
+            <CheckBox fx:id="check8" layoutX="257.0" layoutY="223.0" mnemonicParsing="false" />
+            <Button layoutX="369.0" layoutY="258.0" mnemonicParsing="false" onAction="#remL" text="Kaldır" />
+            <Label layoutX="43.0" layoutY="62.0" text="Zorunlu Dersler" />
+            <Label layoutX="253.0" layoutY="62.0" text="Seçmeli Dersler" />
+            <Button layoutX="125.0" layoutY="21.0" mnemonicParsing="false" onAction="#setCourses" text="Aldığım Dersleri Göster" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="26.0" prefWidth="52.0" text="BACK" />
+   </children>
+</AnchorPane>

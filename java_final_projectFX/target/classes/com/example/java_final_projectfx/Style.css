@@ -1,0 +1,13 @@
+#root{
+    -fx-background-image: url("Background.jpg");
+    -fx-background-size: cover;
+}
+#root_new{
+    -fx-background-image: url("backgorundMain.jpg");
+    -fx-background-size: cover;
+}
+
+#root_stack{
+    -fx-background-image: url("stackBg.jpg");
+    -fx-background-size: cover;
+}
